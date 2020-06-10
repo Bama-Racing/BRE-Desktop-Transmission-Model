@@ -5,7 +5,7 @@
 
 int pot_val;
 int rpm;
-void potStuff(); //In Atom, you need to define functions. 
+void potStuff(); //In Atom, you need to define functions.
 
 LiquidCrystal_I2C lcd = LiquidCrystal_I2C(0x27, 16, 2); // Change to (0x27,20,4) for 20x4 LCD... etc.
 Servo ESC_as_Servo; //Define ESC as a Servo
@@ -24,7 +24,7 @@ void setup() {
   lcd.print("RPM");
   lcd.setCursor(2,1);
   lcd.print("Pot Val");
-}
+} //Test
 
 
 void loop() {
