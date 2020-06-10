@@ -24,7 +24,7 @@ void setup() {
   lcd.print("RPM");
   lcd.setCursor(2,1);
   lcd.print("Pot Val");
-} //Test
+} //Test2
 
 
 void loop() {
